@@ -21,15 +21,15 @@ import UniswapV3Pool from "./UniSwap/UniswapV3Pool.json";
 import UniswapV3SwapRouter from "./UniSwap/UniswapV3SwapRouter.json";
 
 // Universe Finance
-import { abi as Multicall } from "./Universe/Multicall2.json";
-import { abi as Util } from "./Universe/Util.json";
-import { abi as TimeLockController } from "./Universe/TimelockController.json";
-import { abi as PositionNFTManager } from "./Universe/PositionNFTManager.json";
-import { abi as TokenDistributor } from "./Universe/TokenDistributor.json";
-import { abi as UniversePairVaultConfig } from "./Universe/UniversePairVaultConfig.json";
-import { abi as UniversePairVaultDelegate } from "./Universe/UniversePairVaultDelegate.json";
-import { abi as UniversePairVaultV2 } from "./Universe/UniversePairVaultV2.json";
-import { abi as UToken } from "./Universe/UToken.json";
+import BlitzarMulticall from "./Universe/Multicall2.json";
+import BlitzarUtil from "./Universe/Util.json";
+import BlitzarTimeLockController from "./Universe/TimelockController.json";
+import BlitzarPositionNFTManager from "./Universe/PositionNFTManager.json";
+import BlitzarTokenDistributor from "./Universe/TokenDistributor.json";
+import BlitzarPairVaultConfig from "./Universe/UniversePairVaultConfig.json";
+import BlitzarPairVaultDelegate from "./Universe/UniversePairVaultDelegate.json";
+import BlitzarPairVaultV2 from "./Universe/UniversePairVaultV2.json";
+import BlitzarUToken from "./Universe/UToken.json";
 
 const abis = {
   AuthereumAccount,
@@ -40,15 +40,15 @@ const abis = {
   EnsEthRegistrarController,
   EnsPublicResolver,
 
-  Multicall,
-  Util,
-  TimeLockController,
-  PositionNFTManager,
-  TokenDistributor,
-  UniversePairVaultConfig,
-  UniversePairVaultDelegate,
-  UniversePairVaultV2,
-  UToken,
+  BlitzarMulticall,
+  BlitzarUtil,
+  BlitzarTimeLockController,
+  BlitzarPositionNFTManager,
+  BlitzarTokenDistributor,
+  BlitzarPairVaultConfig,
+  BlitzarPairVaultDelegate,
+  BlitzarPairVaultV2,
+  BlitzarUToken,
 
   UniswapV2Factory,
   UniswapV2Pair,
